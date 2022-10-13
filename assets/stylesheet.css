@@ -23,26 +23,20 @@ header{
     width: 184px;
     text-align: center;
 }
-
-
-
 main{
     height: calc(100vh - 87px);
     width: calc(100vw - 250px);
     overflow-y: auto;
-    /* background-color: aqua; */
-    border: 5px red dashed;
+    /* background-color: aqua;
+    border: 5px red dashed; */
     left: 200px;
     display: flex;
     margin-left: 250px;
     margin-top: 87px;
 }
 .online{
-    background-color: yellowgreen
-    
+    background-color: yellowgreen;
 }
-
-
 
 /* ========BG============= */
 .bg-red{
@@ -55,11 +49,9 @@ main{
     background-color: cornflowerblue;
     color: black;
 }
-
 .bg-blu{
     background-color: rgba(26, 115, 232, 1);
 }
-
 .up-online button, .down-online button{
         --bs-btn-padding-y: .10rem;
         --bs-btn-padding-x: .5rem;
@@ -75,17 +67,8 @@ table .btn{
     --bs-btn-font-weight: 400;
     --bs-btn-line-height: 14.5px;
 }
-
-.main-title{
-    
-
-}
 .text-white {
     /* --bs-text-opacity: 1; */
     color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
 }
-table img{
 
-}
-table .nome{
-}
