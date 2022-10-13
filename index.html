@@ -10,29 +10,204 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <!-- <section class="search bg-yellow"> -->
+        <nav class="navbar fixed-top bg-light w-100">
+            <div class="container-fluid d-flex">
+                <div class="row py-2 w-100">
+                    <!-- col1 -->
+                    <div class="col-sm-2 col-md-2">
+                        <a href="#">
+                        <img src="./assets/img/logo.svg" class="w-100" alt="">
+                        </a>
+                    </div>
+                <!-- col2 -->
+                    <div class="col-sm-8 col-md-9">
+                        <form class="d-flex w-100" role="search">
+                        <input class="form-control me-3" type="search" placeholder="Search" aria-label=" Search">
+                        </form>
+                    </div>
+                <!-- col3 -->
+                    <div class="d-flex justify-content-around col-sm-2 col-md-1 align-items-center">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- </section> -->
+
+
+    <header class="d-flex flex-column w-10 justify-content-between fixed-left align-items-center">
         <!-- l'header è posizionato nella parte dell'aside -->
-        <div class="top-menu">
+        <div class="top-menu text-white py-2">
             <div class="button-menu">
-
+                <i class="fa-solid fa-house py-2"></i> Home
             </div>
             <div class="button-menu">
-
+                <i class="fa-solid fa-chart-simple py-2"></i> Stats
             </div>
             <div class="button-menu">
-
+                <i class="fa-solid fa-signal py-2"></i> Signals
             </div>
         </div>
-        <div class="bottom-menu">
+        <div class="bottom-menu text-white py-2">
             <div class="button-menu">
-
+                <i class="fa-solid fa-gear py-2"></i> Admin
             </div>
         </div>
 
     </header>
-    <main>
 
+    <main class="">
+        
+            <div class="container-fluid online text-center">
+                <div class="row bg-blu ">
+                    
+                    <div class="col-4 right-boolean py-2 text-start border border-dark">
+                        <div class="up-online py-2 ">
+                            <span class="main-title text-white fs-3">Boolean</span>
+                            <button type="button" class="btn btn-primary">Primary</button>
+
+                        </div>
+                        <div class="down-online py-0 ">
+                            <button type="button" class="btn btn-primary">3 app</button>
+                            <button type="button" class="btn btn-primary">Boolean mobile app</button>
+                            <button type="button" class="btn btn-primary">Boolean web app</button>
+                            <button type="button" class="btn btn-primary">Boolean blog app</button>
+                            
+                        </div>col-4
+                    </div>
+                    <div class="col-4 offset-4 d-flex py-2 d-flex flex-column text-start border border-dark">
+
+                        <p class="w-100 py-2 text-white">Studenti online negli ultimi 30 minuti</p>
+                        <p class="numero-studenti text-white w-100">125</p>
+                        col-4 offset-4
+                    </div>
+                    <div class="col-8 bg-red border border-dark">
+
+                        <div class="card text-start mt-1">
+                            <div class="card-header d-flex justify-content-between ">
+                                <div class="classi fs-3">Prossime classi</div>
+                                <div class="add"><button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i></button></div>
+                                
+                            </div>
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col nome">Nome</th>
+                                    <th scope="col">Data inizio</th>
+                                    <th scope="col">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 75
+                                        </td>
+                                        <td>15 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <button type="button" class="btn btn-success">Done</button></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 76
+                                        </td>
+                                        <td>16 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td><button type="button" class="btn btn-success">Done</button></td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 77
+                                        </td>
+                                        <td>17 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td><button type="button" class="btn btn-success">Done</button></td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 75
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 78
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 79
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 80
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 81
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <img src="./assets/img/class-avatar.jpg" width="30" height="30"  alt=""> Classe 82
+                                        </td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                      </tr>                            
+                                  
+                                </tbody>
+                              </table>
+                          </div>
+                    
+                        
+
+                    </div>
+                    <div class="col-4 bg-alice border border-dark">col-4
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-6"></div>
+            </div>
+
+            
     </main>
+
+
 
 
 
