@@ -34,12 +34,13 @@ main{
     margin-left: 250px;
     margin-top: 87px;
 }
-.online{
+/* .online{
     background-color: yellowgreen;
-}
+} */
 
 /* ========BG============= */
-.bg-red{
+
+/* .bg-red{
     background-color: red;
 }
 .bg-yellow{
@@ -48,7 +49,8 @@ main{
 .bg-alice{
     background-color: cornflowerblue;
     color: black;
-}
+} */
+
 .bg-blu{
     background-color: rgba(26, 115, 232, 1);
 }
@@ -72,3 +74,7 @@ table .btn{
     color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
 }
 
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 76%;
+}
