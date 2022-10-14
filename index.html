@@ -51,7 +51,8 @@
                 dropdown-menu-lg-start">
                 <li><button class="dropdown-item" type="button">Action</button></li>
                 <li><button class="dropdown-item" type="button">Another action</button></li>
-                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                <li><button class="dropdown-item" type="button">Something else
+                    here</button></li>
               </ul>
             </div>
           </div>
@@ -61,7 +62,8 @@
     <!-- </section> -->
 
 
-    <header class="d-flex flex-column w-10 justify-content-between py-2 fixed-left
+    <header class="d-flex flex-column w-10 justify-content-between py-2
+      fixed-left
       align-items-center">
       <!-- l'header è posizionato nella parte dell'aside -->
       <div class="top-menu text-white py-2">
@@ -102,53 +104,68 @@
               minuti</p>
             <p class="numero-studenti text-white w-100">125</p>
           </div>
-
-
-
           <div class="col-8">
             <div class="card text-start my-4">
               <div class="card-header d-flex justify-content-between ">
                 <div class="classi fs-3">Prossime classi</div>
                 <div class="add">
-                  
-                  <button class="btn
-                  btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
-                  <div class="offcanvas offcanvas-end container-fluid" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    div
+                  <button class="btn
+                    btn-outline-primary" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                  <div class="offcanvas offcanvas-end container-fluid"
+                    tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="row  offcanvas-body">
+
+
                       <!-- email -->
-                      <label for="exampleFormControlInput1" class="form-label">Email</label>
-                      <div class="input-group mb-3 ">
-                        <span class="input-group-text">@</span>
-                        <div class="form-floating">
-                          <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                          <label for="floatingInputGroup1"></label>
+                      <div class="col-8">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Email</label>
+                          <div class="input-group mb-3">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                       </div>
+
                       <!-- password -->
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Password</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="password@example.com">
+                      <div class="col-4">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Password</label>
+                        <input type="email" class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="">
                       </div>
                       <!-- Indirizzo -->
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <div class=">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Indirizzo</label>
+                        <input type="email" class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="">
                       </div>
                       <!-- città -->
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Città</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <div class="col-8">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Città</label>
+                        <input type="email" class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="">
                       </div>
                       <!-- stato -->
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Stato</label>
-                        <select class="form-select" aria-label="Default select example">
+                      <div class="col-4">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Stato</label>
+                        <select class="form-select" aria-label="Default select
+                          example">
                           <option selected>Scegli...</option>
                           <option value="1">Italia</option>
                           <option value="2">Portogallo</option>
@@ -156,23 +173,29 @@
                         </select>
                       </div>
                       <!-- foto -->
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Foto</label>
+                      <div class="">
+                        <label for="exampleFormControlInput1"
+                          class="form-label">Foto</label>
                         <div class="input-group">
-                          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-                          
+                          <input type="file" class="form-control"
+                            id="inputGroupFile04"
+                            aria-describedby="inputGroupFileAddon04"
+                            aria-label="Upload">
                         </div>
                       </div>
                       <!-- check -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <div class="form-check col-4">
+                        <input class="form-check-input" type="checkbox" value=""
+                          id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                           Seleziona per proseguire
                         </label>
                       </div>
                       <!-- button salve e svuota -->
-                      <button type="button" class="btn btn-primary">Salva</button>
-                      <button type="button" class="btn btn-warning">Svuota</button>
+                      <div class="button">
+                        <button type="button" class="btn btn-primary">Salva</button>
+                        <button type="button" class="btn btn-warning">Svuota</button>
+                      </div>
                     </div>
                   </div>
                 </div>
